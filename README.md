@@ -1,8 +1,6 @@
 # Project_PythonDataIES
 Python project by Alessandra Lupini and Alexander Mačejovský
 
-### Current info: 
-We have 4 lists of dataframes - for each quarter of the year. Inside of them dataframes are still ordered first by the city, then by the year, so first city takes 1st-35th dataframe etc.
+## The final version of our project is stored in "Final Project" brench.
 
-### Old info:
-list_of_DFs and list_of_DFs2 contain dataframes ordered by cities and date: first city's data are on 1st-420th position, from January 1985 to December 2019, second city's on the 421st-840th position etc., so it is quite comfortable to subset required months accordingly to their position in the list.
+We scraped data from one of the most used website in Italy "https://www.ilmeteo.it/portale/archivio-meteo". We then processed the data that we get in order to perform analysis. The analysis has been made by looking at the evolutions in variables from 1985 to 2019. Our goal is to understand how the climate has changed in Italy.
